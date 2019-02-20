@@ -17,8 +17,12 @@ public class FizzBuzz {
         }
         else if (num==2) {
             return "2";
-        }else
+        }
+        else if (num%3==0) {
             return "Fizz";
+        }
+        else
+            return num;
     }
     
 }
