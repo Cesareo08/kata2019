@@ -15,7 +15,7 @@ public class FizzBuzz {
         if (num%3==0 && num%5==0) {
             return "FizzBuzz";
         }
-        else if (num%3==0) {
+        else if (num%3==0 || Integer.toString(num).indexOf('3')!=-1) {
             return "Fizz";
         }
         else if (num%5==0) {
